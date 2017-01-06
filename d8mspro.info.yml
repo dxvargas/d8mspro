@@ -31,7 +31,7 @@ dependencies:
   - file
   - views
   - automated_cron
-  - feature
+  - features
   
   - locale
   - language
