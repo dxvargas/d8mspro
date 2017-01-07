@@ -54,7 +54,6 @@ dependencies:
   - text
   - update
   - user
-  - d8mspro
   
 themes:
   - bootstrap
