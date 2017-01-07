@@ -11,7 +11,8 @@ distribution:
   name: d8ms
 
 # Required modules
-dependencies:
+dependencies:  
+  - block
   - history
   - breakpoint
   - ckeditor
@@ -42,6 +43,22 @@ dependencies:
   - content_translation
   - config_translation
   
+  - config_update
+  - ctools
+  - field
+  - filter
+  - layout_plugin
+  - link
+  - node
+  - system
+  - text
+  - update
+  - user
+  - d8mspro
+  
 themes:
   - bootstrap
   - seven
+  
+  - stable
+  - classy
