@@ -43,21 +43,6 @@ dependencies:
   - content_translation
   - config_translation
   
-  - config_update
-  - ctools
-  - field
-  - filter
-  - layout_plugin
-  - link
-  - node
-  - system
-  - text
-  - update
-  - user
-  
 themes:
   - bootstrap
   - seven
-  
-  - stable
-  - classy
