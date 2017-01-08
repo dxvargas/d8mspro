@@ -1,0 +1,15 @@
+name: 'd8ms Core Config'
+description: 'Provides core components required by other features.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - contact
+  - features
+  - file
+  - language
+  - menu_link_content
+  - node
+  - page_manager
+  - shortcut
+  - taxonomy
