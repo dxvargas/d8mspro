@@ -1,0 +1,10 @@
+name: 'd8mspro Contents'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - image
+  - node
+  - path
+  - text
+  - user
