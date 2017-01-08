@@ -42,6 +42,9 @@ dependencies:
   - content_translation
   - config_translation
   
+  - d8mspro_config
+  - d8mspro_contents
+  
 themes:
   - bootstrap
   - seven
