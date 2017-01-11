@@ -47,4 +47,4 @@ dependencies:
   
 themes:
   - bootstrap
-  - seven
+  - adminimal_theme
