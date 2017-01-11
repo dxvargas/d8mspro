@@ -1,8 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-name: Default
-machine_name: default
+name: d8mspro
+machine_name: d8mspro
 description: ''
 assignments:
   base:

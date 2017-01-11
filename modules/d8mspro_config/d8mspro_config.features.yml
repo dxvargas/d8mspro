@@ -1,1 +1,4 @@
+bundle: d8mspro
+excluded:
+  - features.bundle.default
 required: true
