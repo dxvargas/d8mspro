@@ -6,7 +6,9 @@ dependencies:
   - field
   - file
   - image
+  - language
   - node
+  - options
   - path
   - taxonomy
   - text
