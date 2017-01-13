@@ -5,9 +5,9 @@ dependencies:
     - field.field.node.members.body
     - field.field.node.members.field_email
     - field.field.node.members.field_image
+    - field.field.node.members.field_member_type
     - field.field.node.members.field_position
     - field.field.node.members.field_tags
-    - field.field.node.members.field_type
     - node.type.members
   module:
     - image
@@ -21,7 +21,7 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 1
+    weight: 3
     settings: {  }
     third_party_settings: {  }
   field_email:
@@ -31,7 +31,7 @@ content:
     third_party_settings: {  }
     type: basic_string
   field_image:
-    weight: 3
+    weight: 0
     label: above
     settings:
       image_style: ''
@@ -39,17 +39,17 @@ content:
     third_party_settings: {  }
     type: image
   field_position:
-    weight: 4
+    weight: 1
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
   links:
-    weight: 0
+    weight: 4
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_member_type: true
   field_tags: true
-  field_type: true
   langcode: true

@@ -2,18 +2,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_type
+    - field.storage.node.field_member_type
     - node.type.members
   module:
     - options
-id: node.members.field_type
-field_name: field_type
+id: node.members.field_member_type
+field_name: field_member_type
 entity_type: node
 bundle: members
 label: Type
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

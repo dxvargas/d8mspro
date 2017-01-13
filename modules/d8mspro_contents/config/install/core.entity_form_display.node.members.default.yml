@@ -5,9 +5,9 @@ dependencies:
     - field.field.node.members.body
     - field.field.node.members.field_email
     - field.field.node.members.field_image
+    - field.field.node.members.field_member_type
     - field.field.node.members.field_position
     - field.field.node.members.field_tags
-    - field.field.node.members.field_type
     - image.style.thumbnail
     - node.type.members
   module:
@@ -40,6 +40,11 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+  field_member_type:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
   field_position:
     weight: 3
     settings:
@@ -55,11 +60,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
-  field_type:
-    weight: 0
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
   title:
     type: string_textfield
     weight: 2
