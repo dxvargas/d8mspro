@@ -13,4 +13,5 @@ excluded:
   - field.field.node.members.field_tags
   - field.storage.node.field_article_type
   - field.storage.node.field_member_type
+  - page_manager.page.home
 required: true

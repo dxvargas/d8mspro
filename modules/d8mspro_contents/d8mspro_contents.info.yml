@@ -9,7 +9,10 @@ dependencies:
   - language
   - node
   - options
+  - page_manager
   - path
   - taxonomy
   - text
   - user
+  - views
+  - views_infinite_scroll
