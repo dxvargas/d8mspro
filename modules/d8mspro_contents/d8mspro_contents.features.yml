@@ -13,5 +13,8 @@ excluded:
   - field.field.node.members.field_tags
   - field.storage.node.field_article_type
   - field.storage.node.field_member_type
+  - field.storage.node.field_image
+  - field.storage.node.field_position
+  - field.storage.node.field_email
   - page_manager.page.home
 required: true
