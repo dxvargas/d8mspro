@@ -4,17 +4,16 @@ excluded:
   - core.entity_form_display.node.members.default
   - core.entity_view_display.node.members.default
   - core.entity_view_display.node.members.teaser
-  - field.field.node.article.field_article_type
   - field.field.node.members.body
   - field.field.node.members.field_email
   - field.field.node.members.field_image
   - field.field.node.members.field_member_type
   - field.field.node.members.field_position
   - field.field.node.members.field_tags
-  - field.storage.node.field_article_type
+  - field.field.node.article.field_article_type
   - field.storage.node.field_member_type
   - field.storage.node.field_image
   - field.storage.node.field_position
   - field.storage.node.field_email
-  - page_manager.page.home
+  - field.storage.node.field_article_type
 required: true

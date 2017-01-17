@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - page_manager.page.home
+    - page_manager.page.news
     - views.view.news
   module:
     - views
-id: home-block_display-0
+id: news-block_display-0
 label: 'Block page'
 variant: block_display
 variant_settings:
   blocks:
-    b6859c67-a2e6-4414-98a1-a1f1062e75ca:
+    aee8a20e-3d46-4379-b9bc-28dba3291fe3:
       id: 'views_block:news-block_1'
       label: ''
       provider: views
@@ -20,14 +20,14 @@ variant_settings:
       items_per_page: none
       region: top
       weight: 0
-      uuid: b6859c67-a2e6-4414-98a1-a1f1062e75ca
+      uuid: aee8a20e-3d46-4379-b9bc-28dba3291fe3
       context_mapping: {  }
   id: block_display
-  uuid: e0654e8e-640c-4c2d-898b-6d1761922ede
+  uuid: 49ddfb83-b757-4b38-8f1b-9eef5469b629
   label: null
   weight: 0
-  page_title: Home
-page: home
+  page_title: News
+page: news
 weight: 0
 selection_criteria: {  }
 selection_logic: and
