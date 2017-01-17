@@ -5,7 +5,7 @@ id: news
 label: News
 description: ''
 use_admin_theme: false
-path: /news
+path: /comunication/news
 access_logic: and
 access_conditions: {  }
 parameters: {  }
