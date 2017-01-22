@@ -10,10 +10,8 @@ excluded:
   - field.field.node.members.field_member_type
   - field.field.node.members.field_position
   - field.field.node.members.field_tags
-  - field.field.node.article.field_article_type
   - field.storage.node.field_member_type
   - field.storage.node.field_image
   - field.storage.node.field_position
   - field.storage.node.field_email
-  - field.storage.node.field_article_type
 required: true

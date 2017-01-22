@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
-    - field.field.node.article.field_article_type
     - field.field.node.article.field_image
     - field.field.node.article.field_news_category
     - field.field.node.article.field_tags
@@ -32,11 +31,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_article_type:
-    weight: 0
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
   field_image:
     type: image_image
     weight: 1
