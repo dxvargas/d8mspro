@@ -46,6 +46,8 @@ dependencies:
   - d8mspro_config
   - d8mspro_contents
   
+  - adminimal_admin_toolbar
+  
 themes:
   - bootstrap
   - adminimal_theme
