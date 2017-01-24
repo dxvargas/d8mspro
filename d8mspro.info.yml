@@ -36,6 +36,7 @@ dependencies:
   - page_manager
   - admin_toolbar
   - pathauto
+  - features
   
   - locale
   - language
