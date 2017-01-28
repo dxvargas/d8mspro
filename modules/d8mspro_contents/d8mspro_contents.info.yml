@@ -5,6 +5,7 @@ dependencies:
   - content_translation
   - field
   - file
+  - filter
   - image
   - language
   - menu_ui
@@ -17,3 +18,4 @@ dependencies:
   - user
   - views
   - views_infinite_scroll
+  - views_slideshow
