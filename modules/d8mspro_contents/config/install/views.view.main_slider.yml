@@ -84,44 +84,47 @@ display:
             wait_for_image_load_timeout: '3000'
             cleartype: 0
             cleartypenobg: 0
+            advanced_options_choices: '0'
+            advanced_options_entry: ''
+            advanced_options: '{}'
           widgets:
             top:
               views_slideshow_controls:
-                enable: true
+                enable: false
                 weight: '1'
                 hide_on_single_slide: '0'
                 type: views_slideshow_controls_text
               views_slideshow_slide_counter:
-                enable: true
+                enable: false
                 weight: '1'
                 hide_on_single_slide: '0'
               views_slideshow_pager:
-                enable: true
+                enable: false
                 weight: '1'
                 hide_on_single_slide: '0'
                 type: views_slideshow_pager_fields
                 views_slideshow_pager_fields:
                   views_slideshow_pager_fields_fields:
-                    title: 0
+                    field_image: 0
                   views_slideshow_pager_fields_hover: 0
             bottom:
               views_slideshow_controls:
-                enable: false
+                enable: true
                 weight: '1'
                 hide_on_single_slide: '0'
                 type: views_slideshow_controls_text
               views_slideshow_slide_counter:
-                enable: false
+                enable: true
                 weight: '1'
                 hide_on_single_slide: '0'
               views_slideshow_pager:
-                enable: false
+                enable: true
                 weight: '1'
                 hide_on_single_slide: '0'
                 type: views_slideshow_pager_fields
                 views_slideshow_pager_fields:
                   views_slideshow_pager_fields_fields:
-                    title: 0
+                    field_image: 0
                   views_slideshow_pager_fields_hover: 0
       row:
         type: fields
