@@ -2,6 +2,7 @@ name: 'd8mspro Contents'
 type: module
 core: 8.x
 dependencies:
+  - block_content
   - content_translation
   - field
   - file
