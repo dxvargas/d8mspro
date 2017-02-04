@@ -41,7 +41,7 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_news_category:
-    weight: 5
+    weight: 6
     settings:
       match_operator: CONTAINS
       size: 60
@@ -50,7 +50,7 @@ content:
     type: entity_reference_autocomplete
   field_tags:
     type: entity_reference_autocomplete_tags
-    weight: 6
+    weight: 7
     region: content
     settings:
       match_operator: CONTAINS
@@ -59,7 +59,7 @@ content:
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 7
+    weight: 5
     settings: {  }
     third_party_settings: {  }
   path:
