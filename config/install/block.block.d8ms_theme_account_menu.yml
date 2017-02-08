@@ -10,7 +10,7 @@ dependencies:
 id: d8ms_theme_account_menu
 theme: d8ms_theme
 region: navigation_collapsible
-weight: 11
+weight: -7
 provider: null
 plugin: 'system_menu_block:account'
 settings:

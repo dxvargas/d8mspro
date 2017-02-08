@@ -4,14 +4,13 @@ dependencies:
   config:
     - system.menu.main
   module:
-    - language
     - system
   theme:
     - d8ms_theme
 id: mainnavigation
 theme: d8ms_theme
 region: footer
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -20,17 +19,5 @@ settings:
   provider: system
   label_display: visible
   level: 1
-  depth: 0
-visibility:
-  language:
-    id: language
-    langcodes:
-      pt-pt: pt-pt
-    negate: false
-    context_mapping:
-      language: '@language.current_language_context:language_interface'
-  request_path:
-    id: request_path
-    pages: ''
-    negate: true
-    context_mapping: {  }
+  depth: 2
+visibility: {  }

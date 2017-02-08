@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contacts
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: block_content.contacts
+target_entity_type_id: block_content
+target_bundle: contacts
+default_langcode: site_default
+language_alterable: true

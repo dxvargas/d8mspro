@@ -9,14 +9,17 @@ dependencies:
   - filter
   - image
   - language
+  - link
   - menu_ui
   - node
   - options
   - page_manager
   - path
   - taxonomy
+  - telephone
   - text
   - user
   - views
   - views_infinite_scroll
   - views_slideshow
+package: d8mspro

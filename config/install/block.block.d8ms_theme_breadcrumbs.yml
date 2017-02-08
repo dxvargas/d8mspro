@@ -8,7 +8,7 @@ dependencies:
 id: d8ms_theme_breadcrumbs
 theme: d8ms_theme
 region: header
-weight: -100
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:
