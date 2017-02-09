@@ -1,4 +1,3 @@
-bundle: d8mspro
 excluded:
   - language.content_settings.node.members
   - node.type.members

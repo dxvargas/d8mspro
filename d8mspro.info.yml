@@ -9,7 +9,6 @@ dependencies:
   - adminimal_admin_toolbar
   - automated_cron
   - block
-  - block_content
   - breakpoint
   - ckeditor
   - config
