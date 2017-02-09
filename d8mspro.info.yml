@@ -2,45 +2,57 @@ name: d8mspro
 type: profile
 description: 'd8ms Profile.'
 core: 8.x
+package: d8mspro
+
+# Optional: Declare your installation profile as a distribution
+# This will make the installer auto-select this installation profile.
+# The distribution_name property is used in the installer and other places as
+# a label for the software being installed.
 distribution:
   name: d8mspro
+
+# Required modules
 dependencies:
-  - admin_toolbar
-  - adminimal_admin_toolbar
-  - automated_cron
   - block
+  - history
   - breakpoint
   - ckeditor
   - config
-  - config_translation
-  - contact
-  - content_translation
   - contextual
-  - d8mspro_config
-  - d8mspro_contents
+  - contact
+  - menu_link_content
   - datetime
   - editor
-  - features
-  - file
-  - history
   - image
-  - language
-  - locale
-  - menu_link_content
   - node
   - options
-  - page_manager
-  - panels
   - path
-  - pathauto
   - search
   - shortcut
+  - toolbar
+  - file
+  - views
+  - automated_cron
+  - panels
+  - page_manager
+  - admin_toolbar
+  - pathauto
   - system
   - taxonomy
-  - toolbar
   - user
-  - views
+  - features
+  - dblog
+
+  - locale
+  - language
+  - content_translation
+  - config_translation
+
+  - d8mspro_config
+  - d8mspro_contents
+
+  - adminimal_admin_toolbar
+
 themes:
-  - adminimal_theme
   - bootstrap
-package: d8mspro
+  - adminimal_theme
