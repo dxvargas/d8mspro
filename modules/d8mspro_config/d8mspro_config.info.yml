@@ -13,6 +13,7 @@ dependencies:
   - page_manager
   - panels
   - pathauto
+  - search
   - shortcut
   - taxonomy
 package: d8mspro
