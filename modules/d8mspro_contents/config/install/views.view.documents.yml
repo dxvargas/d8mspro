@@ -200,7 +200,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Documentos
+      title: Documents
       header: {  }
       footer: {  }
       empty: {  }
@@ -218,7 +218,7 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Documentos
+    display_title: Documents
     position: 1
     display_options:
       display_extenders: {  }
@@ -234,7 +234,7 @@ display:
   block_2:
     display_plugin: block
     id: block_2
-    display_title: Publicações
+    display_title: Publications
     position: 2
     display_options:
       display_extenders: {  }
@@ -476,7 +476,7 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-      title: Publicações
+      title: Publications
     cache_metadata:
       max-age: -1
       contexts:
