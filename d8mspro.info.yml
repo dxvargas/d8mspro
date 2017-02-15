@@ -42,6 +42,7 @@ dependencies:
   - user
   - features
   - dblog
+  - views_slideshow_cycle
 
   - locale
   - language
