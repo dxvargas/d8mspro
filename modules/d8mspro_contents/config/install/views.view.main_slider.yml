@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_image
+    - image.style.tlcrl_carousel
     - node.type.carousel
   module:
     - image
@@ -186,7 +187,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: ''
+            image_style: tlcrl_carousel
             image_link: ''
           group_column: ''
           group_columns: {  }

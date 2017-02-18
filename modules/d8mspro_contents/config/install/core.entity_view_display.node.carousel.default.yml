@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.carousel.field_category
     - field.field.node.carousel.field_image
     - field.field.node.carousel.field_tags
+    - image.style.tlcrl_carousel
     - node.type.carousel
   module:
     - image
@@ -33,7 +34,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: ''
+      image_style: tlcrl_carousel
       image_link: ''
     third_party_settings: {  }
     type: image
