@@ -6,7 +6,7 @@ dependencies:
     - field.field.node.article.field_image
     - field.field.node.article.field_news_category
     - field.field.node.article.field_tags
-    - image.style.large
+    - image.style.tlcrl_news_detail
     - node.type.article
   module:
     - image
@@ -29,7 +29,7 @@ content:
     weight: 0
     region: content
     settings:
-      image_style: large
+      image_style: tlcrl_news_detail
       image_link: ''
     third_party_settings: {  }
     label: hidden

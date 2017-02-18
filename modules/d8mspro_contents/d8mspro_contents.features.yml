@@ -13,4 +13,5 @@ excluded:
   - field.storage.node.field_member_type
   - field.storage.node.field_position
   - field.storage.node.field_email
+  - image.style.large
 required: true

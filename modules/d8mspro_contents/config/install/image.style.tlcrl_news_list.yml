@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: tlcrl_news_list
+label: 'News list (220 x 146)'
+effects:
+  8f9ee5e2-6b4b-4acc-9e43-64f96586c0ac:
+    uuid: 8f9ee5e2-6b4b-4acc-9e43-64f96586c0ac
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 220
+      height: 146
