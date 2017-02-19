@@ -4,9 +4,12 @@ type: module
 core: 8.x
 dependencies:
   - block
+  - ckeditor
   - contact
+  - editor
   - features
   - file
+  - filter
   - language
   - menu_link_content
   - node
