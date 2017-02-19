@@ -16,4 +16,13 @@ excluded:
   - field.storage.node.field_email
   - image.style.large
   - views.view.news
+  - views.view.cooperation_network
+  - views.view.documents
+  - views.view.relations_network
+  - page_manager.page.news
+  - page_manager.page.publications
+  - page_manager.page.institutional_relations
+  - page_manager.page_variant.news-block_display-0
+  - page_manager.page_variant.publications-panels_variant-0
+  - page_manager.page_variant.institutional_relations-panels_variant-0
 required: true
