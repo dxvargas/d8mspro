@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.publications
+    - views.view.documents
+  module:
+    - panels
+    - views
+id: publications-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    c4ed7188-22ad-4fde-8f4c-5a5d0741dd2e:
+      id: 'views_block:documents-block_3'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: middle
+      weight: 0
+      uuid: c4ed7188-22ad-4fde-8f4c-5a5d0741dd2e
+      context_mapping: {  }
+    6e472cc6-95a7-47cf-8832-c8d4182eb97a:
+      id: 'views_block:documents-block_4'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: middle
+      weight: 1
+      uuid: 6e472cc6-95a7-47cf-8832-c8d4182eb97a
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 3e276b3c-d113-498e-9095-821677b15214
+  label: null
+  weight: 0
+  layout: onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: publications-panels_variant-0
+  builder: standard
+page: publications
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
