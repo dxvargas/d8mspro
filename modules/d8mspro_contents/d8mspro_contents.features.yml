@@ -1,3 +1,4 @@
+bundle: d8mspro
 excluded:
   - language.content_settings.node.members
   - node.type.members
@@ -14,4 +15,5 @@ excluded:
   - field.storage.node.field_position
   - field.storage.node.field_email
   - image.style.large
+  - views.view.news
 required: true

@@ -16,7 +16,9 @@ dependencies:
   - path
   - taxonomy
   - text
+  - tlcrl_contents
   - user
   - views
   - views_infinite_scroll
   - views_slideshow
+package: d8mspro
