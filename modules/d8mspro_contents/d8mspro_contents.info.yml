@@ -9,6 +9,7 @@ dependencies:
   - filter
   - image
   - language
+  - menu_link_content
   - menu_ui
   - node
   - options
