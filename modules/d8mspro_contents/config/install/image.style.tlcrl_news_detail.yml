@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: tlcrl_news_detail
-label: 'News detail (460 x 306)'
+label: 'News detail (460x306)'
 effects:
   c815a18d-d65c-4fe1-aff3-93aeb64a3101:
     uuid: c815a18d-d65c-4fe1-aff3-93aeb64a3101
