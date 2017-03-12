@@ -284,13 +284,14 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_image'
-  block_1:
+  main_slider:
     display_plugin: block
-    id: block_1
-    display_title: Block
+    id: main_slider
+    display_title: 'Main Slider'
     position: 1
     display_options:
       display_extenders: {  }
+      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:
