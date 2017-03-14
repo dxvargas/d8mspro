@@ -5,7 +5,6 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
     - field.field.node.article.field_image
-    - field.field.node.article.field_news_category
     - field.field.node.article.field_tags
     - image.style.tlcrl_news_detail
     - node.type.article
@@ -47,6 +46,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_news_category: true
   field_tags: true
   langcode: true
