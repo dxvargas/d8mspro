@@ -24,6 +24,11 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
   field_image:
     type: image_image
     weight: 2
@@ -55,7 +60,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  created: true
   path: true
   promote: true
   sticky: true
