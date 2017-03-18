@@ -1,19 +1,19 @@
-langcode: tt
+langcode: pt
 status: true
 dependencies:
   config:
-    - node.type.carousel
-id: node.carousel.promote
-field_name: promote
+    - node.type.page
+id: node.page.status
+field_name: status
 entity_type: node
-bundle: carousel
-label: 'Promoted to front page'
-description: ''
+bundle: page
+label: 'Publishing status'
+description: 'A boolean indicating whether the node is published.'
 required: false
 translatable: false
 default_value:
   -
-    value: 0
+    value: 1
 default_value_callback: ''
 settings:
   on_label: 'On'

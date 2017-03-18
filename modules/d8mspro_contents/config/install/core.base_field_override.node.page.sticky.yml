@@ -1,13 +1,13 @@
-langcode: tt
+langcode: pt
 status: true
 dependencies:
   config:
-    - node.type.carousel
-id: node.carousel.promote
-field_name: promote
+    - node.type.page
+id: node.page.sticky
+field_name: sticky
 entity_type: node
-bundle: carousel
-label: 'Promoted to front page'
+bundle: page
+label: 'Sticky at top of lists'
 description: ''
 required: false
 translatable: false

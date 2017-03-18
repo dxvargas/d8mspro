@@ -1,21 +1,19 @@
-langcode: en
+langcode: pt
 status: true
 dependencies:
   config:
-    - field.storage.node.body
     - node.type.page
   module:
-    - text
-id: node.page.body
-field_name: body
+    - path
+id: node.page.path
+field_name: path
 entity_type: node
 bundle: page
-label: Body
+label: 'URL alias'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  display_summary: true
-field_type: text_with_summary
+settings: {  }
+field_type: path
