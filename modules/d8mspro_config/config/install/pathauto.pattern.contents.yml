@@ -8,15 +8,16 @@ label: Contents
 type: 'canonical_entities:node'
 pattern: '[node:content-type]/[node:title]/[node:nid]'
 selection_criteria:
-  e09a2b8b-beb0-457b-a763-06c946d5510d:
+  4d102fb5-512d-4d0e-9189-cb4ab6031e4e:
     id: node_type
     bundles:
       article: article
-      page: page
+      blog: blog
+      members: members
     negate: false
     context_mapping:
       node: node
-    uuid: e09a2b8b-beb0-457b-a763-06c946d5510d
+    uuid: 4d102fb5-512d-4d0e-9189-cb4ab6031e4e
 selection_logic: and
 weight: -5
 relationships: {  }
