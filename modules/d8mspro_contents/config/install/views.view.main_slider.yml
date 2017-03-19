@@ -3,11 +3,9 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
-    - field.storage.node.field_image
-    - image.style.tlcrl_carousel
     - node.type.carousel
   module:
-    - image
+    - file
     - node
     - text
     - user
@@ -138,11 +136,11 @@ display:
           separator: ''
           hide_empty: false
       fields:
-        field_image:
-          id: field_image
-          table: node__field_image
-          field: field_image
-          relationship: none
+        uri:
+          id: uri
+          table: file_managed
+          field: uri
+          relationship: field_image_target_id
           group_type: group
           admin_label: ''
           label: ''
@@ -174,24 +172,24 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
+          element_type: '0'
           element_class: ''
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
-          element_wrapper_type: ''
+          element_wrapper_type: '0'
           element_wrapper_class: ''
-          element_default_classes: true
+          element_default_classes: false
           empty: ''
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: target_id
-          type: image
+          click_sort_column: value
+          type: file_uri
           settings:
-            image_style: tlcrl_carousel
-            image_link: ''
-          group_column: ''
+            link_to_file: false
+            file_download_path: true
+          group_column: value
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -201,6 +199,8 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
+          entity_type: file
+          entity_field: uri
           plugin_id: field
         body:
           id: body
@@ -376,7 +376,16 @@ display:
       header: {  }
       footer: {  }
       empty: {  }
-      relationships: {  }
+      relationships:
+        field_image_target_id:
+          id: field_image_target_id
+          table: node__field_image
+          field: field_image_target_id
+          relationship: none
+          group_type: group
+          admin_label: 'image from field_image'
+          required: true
+          plugin_id: standard
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
@@ -388,7 +397,6 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_image'
   main_slider:
     display_plugin: block
     id: main_slider
@@ -406,4 +414,3 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_image'
