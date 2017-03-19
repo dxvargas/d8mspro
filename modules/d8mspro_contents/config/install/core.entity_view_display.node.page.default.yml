@@ -5,8 +5,15 @@ dependencies:
     - field.field.node.page.body
     - node.type.page
   module:
+    - panelizer
     - text
     - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -15,12 +22,10 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
-  links:
-    weight: 101
-    region: content
 hidden:
   langcode: true
+  links: true
