@@ -14,8 +14,10 @@ settings:
         -
           name: Formatting
           items:
+            - Format
             - Bold
             - Italic
+            - Underline
         -
           name: Links
           items:
@@ -31,6 +33,14 @@ settings:
           items:
             - Blockquote
             - DrupalImage
+        -
+          name: Position
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - Outdent
+            - Indent
         -
           name: Tools
           items:
