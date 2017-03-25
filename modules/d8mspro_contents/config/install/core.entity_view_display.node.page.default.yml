@@ -17,25 +17,6 @@ third_party_settings:
     displays:
       default:
         blocks:
-          00210a33-a4d1-490d-aee5-e82c7c0bc2cc:
-            id: 'entity_field:node:created'
-            label: 'Authored on'
-            provider: ctools_block
-            label_display: '0'
-            formatter:
-              label: hidden
-              type: timestamp
-              settings:
-                date_format: medium
-                custom_date_format: ''
-                timezone: ''
-              third_party_settings: {  }
-              weight: 0
-            region: middle
-            weight: 0
-            context_mapping:
-              entity: '@panelizer.entity_context:entity'
-            uuid: 00210a33-a4d1-490d-aee5-e82c7c0bc2cc
           f0b35c6a-318f-4dff-8007-07dce3822485:
             id: 'entity_field:node:body'
             label: Body
@@ -53,23 +34,15 @@ third_party_settings:
             context_mapping:
               entity: '@panelizer.entity_context:entity'
             uuid: f0b35c6a-318f-4dff-8007-07dce3822485
-          f506d7bb-74db-472f-91b4-3077d585ffd4:
-            id: 'entity_field:node:title'
-            label: Title
-            provider: ctools_block
+          9020f49d-910d-4f2e-92fa-0104f39aff5b:
+            id: config_block
+            label: 'Custom title Block'
+            provider: tlcrl_struct
             label_display: '0'
-            formatter:
-              label: above
-              type: string
-              settings:
-                link_to_entity: false
-              third_party_settings: {  }
-              weight: 0
             region: middle
-            weight: -1
-            uuid: f506d7bb-74db-472f-91b4-3077d585ffd4
-            context_mapping:
-              entity: '@panelizer.entity_context:entity'
+            weight: 0
+            uuid: 9020f49d-910d-4f2e-92fa-0104f39aff5b
+            context_mapping: {  }
         id: panels_variant
         label: Default
         uuid: a84be4f9-eeb1-49c1-b0ef-9932172ffbbb
