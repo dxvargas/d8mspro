@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.carousel.body
+    - field.field.node.carousel.field_description
     - field.field.node.carousel.field_image
     - image.style.tlcrl_carousel
     - node.type.carousel
@@ -22,12 +22,12 @@ targetEntityType: node
 bundle: carousel
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 1
+  field_description:
+    weight: 2
+    label: above
     settings: {  }
     third_party_settings: {  }
+    type: text_default
   field_image:
     weight: 0
     label: hidden

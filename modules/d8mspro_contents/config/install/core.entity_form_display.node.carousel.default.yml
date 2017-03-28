@@ -2,34 +2,25 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.carousel.body
+    - field.field.node.carousel.field_description
     - field.field.node.carousel.field_image
     - image.style.thumbnail
     - node.type.carousel
   module:
     - image
-    - maxlength
     - text
 id: node.carousel.default
 targetEntityType: node
 bundle: carousel
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 1
+  field_description:
+    weight: 26
     settings:
-      rows: 5
+      size: 60
       placeholder: ''
-      summary_rows: 1
-    third_party_settings:
-      maxlength:
-        maxlength_js: 372
-        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
-        maxlength_js_summary: null
-        maxlength_js_label_summary: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
-        maxlength_js_enforce: true
-        maxlength_js_truncate_html: true
+    third_party_settings: {  }
+    type: text_textfield
   field_image:
     weight: 2
     settings:

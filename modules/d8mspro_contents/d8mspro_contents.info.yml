@@ -9,7 +9,6 @@ dependencies:
   - filter
   - image
   - language
-  - maxlength
   - menu_link_content
   - menu_ui
   - node

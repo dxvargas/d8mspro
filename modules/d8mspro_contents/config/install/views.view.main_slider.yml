@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.body
+    - field.storage.node.field_description
     - node.type.carousel
   module:
     - file
@@ -202,10 +202,10 @@ display:
           entity_type: file
           entity_field: uri
           plugin_id: field
-        body:
-          id: body
-          table: node__body
-          field: body
+        field_description:
+          id: field_description
+          table: node__field_description
+          field: field_description
           relationship: none
           group_type: group
           admin_label: ''
@@ -396,7 +396,7 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_description'
   main_slider:
     display_plugin: block
     id: main_slider
@@ -413,4 +413,4 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_description'
