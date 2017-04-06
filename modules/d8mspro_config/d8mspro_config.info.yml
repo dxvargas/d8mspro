@@ -19,4 +19,5 @@ dependencies:
   - search
   - shortcut
   - taxonomy
+  - user
 package: d8mspro
