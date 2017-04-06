@@ -5,7 +5,6 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - field.field.node.article.panelizer
     - image.style.thumbnail
     - node.type.article
   module:
@@ -61,7 +60,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  panelizer: true
   path: true
   promote: true
   sticky: true
