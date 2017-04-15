@@ -1,28 +1,40 @@
 bundle: d8mspro
 excluded:
   - language.content_settings.node.members
+  - language.content_settings.node.carousel
   - node.type.members
+  - node.type.carousel
   - core.entity_form_display.node.members.default
+  - core.entity_form_display.node.carousel.default
   - core.entity_view_display.node.members.default
   - core.entity_view_display.node.members.teaser
+  - core.entity_view_display.node.carousel.default
+  - core.entity_view_display.node.carousel.teaser
   - field.field.node.members.body
   - field.field.node.members.field_email
   - field.field.node.members.field_image
   - field.field.node.members.field_member_type
   - field.field.node.members.field_position
   - field.field.node.members.field_tags
+  - field.field.node.carousel.field_image
   - field.storage.node.field_member_type
   - field.storage.node.field_position
   - field.storage.node.field_email
   - image.style.large
+  - image.style.tlcrl_carousel
   - views.view.news
   - views.view.cooperation_network
   - views.view.documents
-  - views.view.relations_network
+  - views.view.main_slider
   - page_manager.page.news
   - page_manager.page.publications
   - page_manager.page.institutional_relations
   - page_manager.page_variant.news-block_display-0
   - page_manager.page_variant.publications-panels_variant-0
   - page_manager.page_variant.institutional_relations-panels_variant-0
+  - core.base_field_override.node.carousel.changed
+  - core.base_field_override.node.carousel.created
+  - core.base_field_override.node.carousel.promote
+  - core.base_field_override.node.carousel.sticky
+  - core.base_field_override.node.carousel.uid
 required: true
