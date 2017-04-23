@@ -1,10 +1,16 @@
 langcode: en
 status: true
 dependencies: {  }
-name: d8mspro
-machine_name: d8mspro
+name: Default
+machine_name: default
 description: ''
 assignments:
+  alter:
+    core: true
+    uuid: true
+    user_permissions: true
+    enabled: true
+    weight: 0
   base:
     types:
       config:
@@ -53,7 +59,8 @@ assignments:
     weight: 0
   optional:
     types:
-      config: {  }
+      config:
+        block: block
     enabled: true
     weight: 0
   packages:
@@ -66,11 +73,12 @@ assignments:
       dependencies: true
     types:
       config:
-        system_simple: system_simple
         block: block
         language_content_settings: language_content_settings
         configurable_language: configurable_language
+        migration: migration
         shortcut_set: shortcut_set
+        tour: tour
     enabled: true
     weight: 10
   site:
@@ -86,11 +94,5 @@ assignments:
         filter_format: filter_format
     enabled: true
     weight: 7
-  alter:
-    enabled: true
-    weight: 0
-    core: true
-    uuid: true
-    user_permissions: true
-profile_name: d8mspro
-is_profile: true
+profile_name: ''
+is_profile: false
