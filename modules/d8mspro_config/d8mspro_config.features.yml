@@ -1,6 +1,5 @@
 bundle: d8mspro
 excluded:
-  - features.bundle.default
   - system.theme
   - language.mappings
   - language.negotiation
