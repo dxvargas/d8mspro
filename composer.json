@@ -12,8 +12,8 @@
     "require": {
         "drupal/bootstrap": "^3.1",
         "drupal/features": "^3.2",
-        "drupal/panels": "^3.0@beta",
-        "drupal/page_manager": "^1.0",
+        "drupal/panels": "^4.1",
+        "drupal/page_manager": "^4.0",
         "drupal/admin_toolbar": "^1.18",
       	"drupal/pathauto": "^1.0",
         "drupal/adminimal_theme": "^1.3",
