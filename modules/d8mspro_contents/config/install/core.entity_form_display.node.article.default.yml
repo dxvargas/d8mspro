@@ -29,6 +29,7 @@ content:
     weight: 5
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_image:
     type: image_image
     weight: 2
@@ -51,6 +52,7 @@ content:
     weight: 4
     settings: {  }
     third_party_settings: {  }
+    region: content
   title:
     type: string_textfield
     weight: 0

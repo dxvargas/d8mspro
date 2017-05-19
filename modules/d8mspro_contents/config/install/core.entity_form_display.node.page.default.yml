@@ -26,11 +26,13 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
+    region: content
   path:
     type: path
     weight: 4
     settings: {  }
     third_party_settings: {  }
+    region: content
   title:
     type: string_textfield
     weight: 0
@@ -43,6 +45,7 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   created: true
   promote: true
