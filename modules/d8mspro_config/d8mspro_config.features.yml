@@ -5,4 +5,5 @@ excluded:
   - language.negotiation
   - page_manager.page.home
   - page_manager.page_variant.home-panels_variant-0
+  - pathauto.pattern.contents
 required: true
