@@ -8,7 +8,7 @@ assignments:
   alter:
     core: true
     uuid: true
-    user_permissions: true
+    user_permissions: false
     enabled: true
     weight: 0
   base:
@@ -55,7 +55,7 @@ assignments:
     enabled: true
     weight: 4
   namespace:
-    enabled: true
+    enabled: false
     weight: 0
   optional:
     types:

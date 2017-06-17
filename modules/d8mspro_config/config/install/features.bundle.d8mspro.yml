@@ -49,7 +49,7 @@ assignments:
     enabled: true
     weight: 4
   namespace:
-    enabled: true
+    enabled: false
     weight: 0
   optional:
     types:
@@ -91,6 +91,6 @@ assignments:
     weight: 0
     core: true
     uuid: true
-    user_permissions: true
+    user_permissions: false
 profile_name: d8mspro
 is_profile: true
