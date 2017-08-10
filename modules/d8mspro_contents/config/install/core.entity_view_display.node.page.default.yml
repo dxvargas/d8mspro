@@ -47,7 +47,7 @@ third_party_settings:
         label: Default
         uuid: a84be4f9-eeb1-49c1-b0ef-9932172ffbbb
         weight: 0
-        layout: onecol
+        layout: layout_onecol
         layout_settings: {  }
         page_title: '[node:title]'
         storage_type: panelizer_default
