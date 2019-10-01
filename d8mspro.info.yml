@@ -7,7 +7,6 @@ distribution:
   name: d8mspro
 dependencies:
   - admin_toolbar
-  - adminimal_admin_toolbar
   - automated_cron
   - block
   - breakpoint
@@ -44,5 +43,4 @@ dependencies:
   - views
   - views_slideshow_cycle
 themes:
-  - adminimal_theme
   - bootstrap
