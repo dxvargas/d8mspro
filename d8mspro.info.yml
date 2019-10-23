@@ -5,7 +5,11 @@ core: 8.x
 package: d8mspro
 distribution:
   name: d8mspro
-dependencies:
+dependencies: {  }
+themes:
+  - bootstrap
+core_incompatible: false
+install:
   - admin_toolbar
   - automated_cron
   - block
@@ -42,5 +46,3 @@ dependencies:
   - user
   - views
   - views_slideshow_cycle
-themes:
-  - bootstrap

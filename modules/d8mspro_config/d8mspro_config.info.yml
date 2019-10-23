@@ -3,6 +3,7 @@ description: 'Provides core components required by other features.'
 type: module
 core: 8.x
 dependencies:
+  - automated_cron
   - block
   - ckeditor
   - contact
@@ -11,6 +12,7 @@ dependencies:
   - file
   - filter
   - language
+  - locale
   - menu_link_content
   - node
   - page_manager
@@ -18,7 +20,11 @@ dependencies:
   - pathauto
   - search
   - shortcut
+  - system
   - taxonomy
+  - text
   - user
   - video_embed_wysiwyg
+  - views
 package: d8mspro
+core_incompatible: false

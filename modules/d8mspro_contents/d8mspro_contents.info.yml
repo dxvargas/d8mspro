@@ -24,3 +24,4 @@ dependencies:
   - views_infinite_scroll
   - views_slideshow
 package: d8mspro
+core_incompatible: false
