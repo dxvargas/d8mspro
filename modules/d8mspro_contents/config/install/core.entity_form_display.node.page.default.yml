@@ -26,10 +26,19 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
+    region: content
   path:
     type: path
     weight: 4
     settings: {  }
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -41,6 +50,12 @@ content:
     third_party_settings: {  }
   translation:
     weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  url_redirects:
+    weight: 50
+    region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
