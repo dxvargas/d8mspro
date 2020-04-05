@@ -1,7 +1,7 @@
 {
     "name": "dxvargas/d8ms/d8mspro",
     "description": "d8mspro profile",
-    "type": "project",
+    "type": "drupal-profile",
     "license": "GPL-2.0+",
     "repositories": [
         {
