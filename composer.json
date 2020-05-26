@@ -7,10 +7,6 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/dxvargas/views_slideshow"
         }
     ],
     "require": {
@@ -20,8 +16,7 @@
         "drupal/panels": "^4.4",
         "drupal/page_manager": "^4.0@beta",
         "drupal/panelizer": "^4.0",
-      	"drupal/pathauto": "^1.0",
-        "dxvargas/views_slideshow": "*"
+      	"drupal/pathauto": "^1.0"
     },
     "require-dev": {
         "drupal/devel": "^1.0"
