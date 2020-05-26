@@ -17,11 +17,26 @@
         "drupal/page_manager": "^4.0@beta",
         "drupal/panelizer": "^4.0",
       	"drupal/pathauto": "^1.0",
-        "drupal/views_slideshow": "^4.4"
+        "dxvargas/views_slideshow": "^4.4"
     },
     "require-dev": {
         "drupal/devel": "^1.0"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "dxvargas/views_slideshow",
+                "version": "dev-master",
+                "type":"drupal-module",
+                "source": {
+                    "url": "https://github.com/dxvargas/views_slideshow",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
     "conflict": {
         "drupal/drupal": "*"
     },
