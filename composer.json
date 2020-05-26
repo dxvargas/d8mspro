@@ -21,7 +21,7 @@
         "drupal/page_manager": "^4.0@beta",
         "drupal/panelizer": "^4.0",
       	"drupal/pathauto": "^1.0",
-        "drupal/views_slideshow": "^4.4"
+        "dxvargas/views_slideshow": "*"
     },
     "require-dev": {
         "drupal/devel": "^1.0"
