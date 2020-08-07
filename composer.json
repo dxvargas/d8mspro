@@ -10,14 +10,15 @@
         }
     ],
     "require": {
-        "drupal/admin_toolbar": "^1.19",
+        "drupal/admin_toolbar": "^2.3",
         "drupal/bootstrap": "^3.1",
         "drupal/features": "^3.2",
         "drupal/panels": "^4.4",
         "drupal/page_manager": "^4.0@beta",
         "drupal/panelizer": "^4.0",
       	"drupal/pathauto": "^1.0",
-        "drupal/views_slideshow": "^4.4"
+        "drupal/views_slideshow": "^4.4",
+        "drupal/admin_toolbar_tools": "^2.3"
     },
     "require-dev": {
         "drupal/devel": "^1.0"
