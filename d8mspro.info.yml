@@ -2,6 +2,7 @@ name: d8mspro
 type: profile
 description: 'd8ms Profile'
 core: 8.x
+core_version_requirement: ^8 || ^9
 package: d8mspro
 distribution:
   name: d8mspro
